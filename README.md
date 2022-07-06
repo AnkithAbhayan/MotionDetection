@@ -1,5 +1,5 @@
 # Motion detection.
-- This project is probably the best one I've done in the 2022 [Estimated date of completion: January 2022]. An unoriginal concept but a totally authentic implementation by me.
+- This project is probably the best one I've done in the year 2022 [Estimated date of completion: January 2022]. An unoriginal concept but a totally authentic implementation by me.
 - What it does is it takes a video as an argument and processes all the pixels of all the frames to compute the magnitude of difference(between 0 and 1 `0:no difference` and `1:exactly opposite`) between every frame.
 - The processed information, which is essentially just a dictionary with all the magnitudes and the timestamps is saved into a separate file. From this file containing all the data (`.json`), all the information can be loaded using another command and is then relayed onto the command-line window in a formatted way.  
 - A graph gets generated with all those 2 pairs of data plotted along the x and y axis. This lets you know at which point of the video motion is present by observing the spikes in the graph. A flat line indicates lesser change in the video - no motion.
