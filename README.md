@@ -73,7 +73,7 @@ eg: a black pixel and a white pixel yields a difference of 255 wheres a red and 
 - All the above calculations are then done between the 2nd and 3rd frame, then the 3rd and 4th frame, then the 4th and 5th frame and so on until the entire video is processed.
 - Finally we are left with a list of magnitudes which we can associate with the timestamp of a video and then plot in a bar graph to show a line that may spike or stay flat based on where and by how much a motion is observed in a video. Even if a video is still, a poor camera may produce video that flickers a lot (especially when shot in the dark), this may slightly interfere in the graph, but big differences are stil prominently visible.
 
-- The above calculations seem lengthy but since the same process is repeated for every pixel of every frame, I was able to define all the calculations in less than 20 lines of code. [Click here]() to check it out
+- The above calculations seem lengthy but since the same process is repeated for every pixel of every frame, I was able to define all the calculations in around 16 lines of code. [Click here](https://github.com/AnkithAbhayan/MotionDetection/blob/a7f7332fb67459f1ef25181d63fa0ccb76ba3325/source/image_processing.py#L26-L42) to check it out
 # Libraries used
 | library name | Purpose |
 |:------------:|:-------:|
