@@ -18,7 +18,7 @@ Both these videos are sped up, the processing takes many many minutes.
 # Installation and use.
 ## Installing source code + dependencies
 ```bash
-git clone "MotionDetection"
+git clone https://github.com/AnkithAbhayan/MotionDetection "MotionDetection"
 cd "MotionDetection"
 python -m pip install -r requirements.txt
 ```
