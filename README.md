@@ -29,7 +29,7 @@ Lets assume the path to your video to be `videopath` (the whole path or relative
 ```bash
 python main.py vid videopath
 ```
-the above will process all the pixels of all the frames in the video and find out the magnitude of the difference between every two frames.  
+The above will process all the pixels of all the frames in the video and find out the magnitude of the difference between every two frame.  
 A json file with all the processed data gets stored in the `log/` folder for later.  
   
 ## Plotting the data in a Graph/Data visualization
